@@ -61,7 +61,6 @@ $lang = array_merge($lang, array(
 
 	'ACCOUNT_ALREADY_ACTIVATED'		=> 'Tài khoản của bạn vừa được kích hoạt.',
 	'ACCOUNT_DEACTIVATED'			=> 'Tài khoản của bạn đã bị ngưng kích hoạt và chỉ có thể được kích hoạt trở lại bởi một quản trị viên.',
-	'ACCOUNT_NOT_ACTIVATED'			=> 'Tài khoản của bạn chưa được kích hoạt.',
 	'ACP'							=> 'Bảng điều khiển của quản trị viên',
 	'ACP_SHORT'						=> 'ACP',
 	'ACTIVE'						=> 'hoạt động',
@@ -91,8 +90,10 @@ $lang = array_merge($lang, array(
 	'ATTACHED_IMAGE_NOT_IMAGE'		=> 'Tập tin hình ảnh mà bạn đã cố gắng đính kèm không hợp lệ.',
 	'AUTHOR'						=> 'Người gửi',
 	'AUTH_NO_PROFILE_CREATED'		=> 'Quá trình tạo một thông tin cá nhân đã không thành công.',
+	'AUTH_PROVIDER_OAUTH_ERROR_ALREADY_LINKED'				=> 'Dịch vụ ngoại vi này đã liên kết với tài khoản khác.',
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_ENTRY' => 'Mục nhập cơ sở dữ liệu không hợp lệ.',
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_SERVICE_TYPE' => 'Loại dịch vụ không hợp lệ được cung cấp cho trình xử lý dịch vụ OAuth.',
+	'AUTH_PROVIDER_OAUTH_ERROR_REQUEST'						=> 'Đã xảy ra lỗi khi thực hiện yêu cầu dịch vụ OAuth của bạn.',
 	'AUTH_PROVIDER_OAUTH_ERROR_SERVICE_NOT_CREATED' => 'Dịch vụ OAuth không được tạo',
 	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY' => 'Bitly',
 	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK' => 'Facebook',
@@ -137,8 +138,10 @@ $lang = array_merge($lang, array(
 		1 => 'Người dùng duyệt diễn đàn này: %2$s và %1$d khách',
 		2 => 'Người dùng duyệt diễn đàn này: %2$s và %1$d khách',
 	),
+	'BUTTON_DELETE'         => 'Xóa',
 	'BUTTON_EDIT' => 'Chỉnh sửa',
 	'BUTTON_FORUM_LOCKED' => 'Đã khóa',
+	'BUTTON_INFORMATION'    => 'Thông tin',
 	'BUTTON_NEW_TOPIC' => 'Chủ đề mới',
 	'BUTTON_PM' => 'PM',
 	'BUTTON_PM_FORWARD' => 'Chuyển tiếp',
@@ -147,7 +150,9 @@ $lang = array_merge($lang, array(
 	'BUTTON_PM_REPLY_ALL' => 'Trả lời tất cả',
 	'BUTTON_POST_REPLY' => 'Đăng trả lời',
 	'BUTTON_QUOTE' => 'Trích dẫn',
+	'BUTTON_REPORT'         => 'Report',
 	'BUTTON_TOPIC_LOCKED' => 'Đã khóa',
+	'BUTTON_WARN'           => 'Cảnh báo',
 	'BYTES'					=> 'Byte',
 	'BYTES_SHORT'			=> 'B',
 
@@ -157,8 +162,8 @@ $lang = array_merge($lang, array(
 	'CHANGING_PREFERENCES'	=> 'Đang thay đổi thiết lập hệ thống',
 	'CHANGING_PROFILE'		=> 'Đang thay đổi thiết lập cá nhân',
 	'CHARACTERS'			=> array(
-		1	=> '%d tính cách',
-		2	=> '%d nhân vật',
+		1	=> '%d kí tự',
+		2	=> '%d kí tự',
 	),
 	'COLLAPSE_VIEW'			=> 'Xem thu gọn',
 	'CLOSE_WINDOW'			=> 'Đóng cửa sổ',
@@ -206,9 +211,6 @@ $lang = array_merge($lang, array(
 		1	=> 'Đã tải về <strong>%d</strong> lần',
 		2	=> 'Đã tải về <strong>%d</strong> lần',
 	),
-	'VIEWED_COUNT'			=> 'Đã xem <strong>%d</strong> lần',
-	'VIEWED_COUNTS'			=> 'Đã xem <strong>%d</strong> lần',
-	'VIEWED_COUNT_NONE'		=> 'Chưa xem lần nào.',
 
 	'EDIT_POST'							=> 'Sửa bài viết',
 	'ELLIPSIS'							=>	'…',
@@ -265,6 +267,17 @@ $lang = array_merge($lang, array(
 	'FSOCK_DISABLED'		=> 'Yêu cầu này không thể được hoàn tất bởi vì chức năng <var>fsockopen</var> đã bị vô hiệu hoặc địa chỉ của máy chủ được truy xuất trong yêu cầu không thể tìm thấy.',
 	'FSOCK_TIMEOUT'			=> 'Gặp vấn đề vượt quá thời gian quy định (Timeout) trong khi tiếp nhận thông tin.',
 
+	'FILESYSTEM_CANNOT_CHANGE_FILE_GROUP'		=> 'Không thể thay đổi tập tin nhóm',
+	'FILESYSTEM_CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Không thể thay đổi quyền tập tin',
+	'FILESYSTEM_CANNOT_COPY_FILES'				=> 'Không thể sao chép tập tin',
+	'FILESYSTEM_CANNOT_CREATE_SYMLINK'			=> 'không thể tạo liên kết tượng trưng',
+	'FILESYSTEM_CANNOT_CREATE_DIRECTORY'		=> 'Không thể tạo thư mục',
+	'FILESYSTEM_CANNOT_DELETE_FILES'			=> 'không thể xóa tập tin từ hệ thống',
+	'FILESYSTEM_CANNOT_DUMP_FILE'				=> 'Không thể kết xuất file',
+	'FILESYSTEM_CANNOT_MIRROR_DIRECTORY'		=> 'Không thể sao lưu thư mục',
+	'FILESYSTEM_CANNOT_RENAME_FILE'				=> 'Không thể đổi tên tập tin từ hệ thống',
+	'FILESYSTEM_CANNOT_TOUCH_FILES'				=> 'Không thể tạo tập tin hoặc thay đổi thông tin tập tin',
+	
 	'FTP_FSOCK_HOST'				=> 'Địa chỉ FTP',
 	'FTP_FSOCK_HOST_EXPLAIN'		=> 'Địa chỉ máy chủ FTP được sử dụng để kết nối đến website của bạn.',
 	'FTP_FSOCK_PASSWORD'			=> 'Mật khẩu FTP',
@@ -322,8 +335,8 @@ $lang = array_merge($lang, array(
 	'G_GLOBAL_MODERATORS'		=> 'Điều hành viên chính',
 	'G_NEWLY_REGISTERED'		=> 'Thành viên mới đăng ký',
 	'HIDDEN_USERS_ONLINE'		=> array(
-		1	=> '%d người dùng bị ẩn',
-		2	=> '%d người dùng bị ẩn',
+		1	=> '%d người dùng ẩn',
+		2	=> '%d người dùng ẩn',
 	),
 	'HIDDEN_USERS_TOTAL'		=> array(
 		1	=> '%d ẩn',
@@ -335,7 +348,6 @@ $lang = array_merge($lang, array(
 	'HOME'						=> 'Trang chủ',
 
 	'ICQ'						=> 'Tài khoản ICQ',
-	'ICQ_STATUS'				=> 'Trạng thái ICQ',
 	'IF'						=> 'Nếu',
 	'IMAGE'						=> 'Hình ảnh',
 	'IMAGE_FILETYPE_INVALID'	=> 'Loại tập tin hình ảnh “%d” trong nhóm tập tin “%s” không được hỗ trợ.',
@@ -392,7 +404,6 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_EDIT'				=> 'Để sửa các bài viết trong chuyên mục này, bạn phải là thành viên đã đăng ký và đã đăng nhập vào hệ thống.',
 	'LOGIN_EXPLAIN_VIEWONLINE'			=> 'Để xem danh sách thành viên đang trực tuyến, bạn phải là thành viên đã đăng ký và đã đăng nhập vào hệ thống.',
 	'LOGIN_REQUIRED'					=> 'Bạn cần phải đăng nhập để thực hiện hành động này.',
-	
 	'LOGOUT'							=> 'Thoát',
 	'LOGOUT_USER'						=> 'Thoát [ %s ]',
 	'LOG_ME_IN'							=> 'Đăng nhập tự động',
@@ -416,8 +427,8 @@ $lang = array_merge($lang, array(
 	'MESSAGE'				=> 'Nội dung',
 	'MESSAGES'				=> 'Tin nhắn',
 	'MESSAGES_COUNT'		=> array(
-		1	=> '%d Nội dung',
-		2	=> '%d Tin nhắn',
+		1	=> '%d tin nhắn',
+		2	=> '%d tin nhắn',
 	),
 	'MESSAGE_BODY'			=> 'Trình bày bài viết',
 	'MINUTES'				=> 'Phút',
@@ -429,7 +440,6 @@ $lang = array_merge($lang, array(
 	'MODULE_FILE_INCORRECT_CLASS'	=> 'Module file %s does not contain correct class [%s]',
 	'MONTH'					=> 'Month',
 	'MOVE'					=> 'Di chuyển',
-	'MSNM'					=> 'Tài khoản MSNM/WLM',
 
 	'NA'						=> 'N/A',
 	'NEWEST_USER'				=> 'Chào mừng thành viên mới nhất: <strong>%s</strong>',
@@ -458,7 +468,7 @@ $lang = array_merge($lang, array(
 	// A, B, C and 2 others replied...
 	// A, B, C and others replied...
 	'NOTIFICATION_BOOKMARK'				=> array(
-		1	=> '<strong>Trả lời </strong> từ %1$s trong chủ đề được đánh dấu trang:',
+		1	=> '<strong>Trả lời </strong> từ %1$s trong chủ đề được đánh dấu:',
 	),
 	'NOTIFICATION_FORUM'				=> '<em>Diễn đàn:</em> %1$s',
 	'NOTIFICATION_GROUP_REQUEST'		=> '<strong>Group request</strong> from %1$s to join the group %2$s.',
@@ -466,13 +476,13 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_METHOD_INVALID'		=> 'The method "%s" does not refer to a valid notification method.',
 	'NOTIFICATION_PM'					=> '<strong>Tin nhắn riêng </strong> từ %1$s:',
 	'NOTIFICATION_POST'					=> array(
-		1	=> '<strong>Trả lời </strong> từ %1$s in topic:',
+		1	=> '<strong>Trả lời </strong> từ %1$s trong chủ đề:',
 	),
 	'NOTIFICATION_POST_APPROVED'		=> '<strong>Đã phê duyệt bài đăng</strong>:',
 	'NOTIFICATION_POST_DISAPPROVED'		=> '<strong>Bài đăng bị từ chối</strong>:',
 	'NOTIFICATION_POST_IN_QUEUE'		=> 'Gửi yêu cầu phê duyệt của %1$s:',
 	'NOTIFICATION_QUOTE'				=> array(
-		1	=> '<strong>Được trích dẫn bởi</strong> %1$s in:',
+		1	=> '<strong>Được trích dẫn bởi</strong> %1$s trong:',
 	),
 	'NOTIFICATION_REFERENCE'			=> '"%1$s"',
 	'NOTIFICATION_REASON'				=> '<em>Lý do:</em> %1$s.',
@@ -562,7 +572,8 @@ $lang = array_merge($lang, array(
 	'OPTIONS'					=> 'Tuỳ chọn',
 
 	'PAGE_NOT_FOUND'		=> 'không tìm thấy trang yêu cầu.',
-	'PAGE_OF'					=> 'Bạn đang xem trang <strong>%1$d</strong> / <strong>%2$d</strong> trang',
+	'PAGE_OF'					=> 'Bạn đang xem trang <strong>%1$d</strong> / <strong>%2$d</strong>',
+	'PAGE_TITLE_NUMBER'		=> 'Trang %s',
 	'PASSWORD'					=> 'Mật khẩu',
 	'PIXEL'						=> 'px',
 	'PIXELS'				=> array(
@@ -603,13 +614,15 @@ $lang = array_merge($lang, array(
 	'POST_TOPIC'				=> 'Tạo chủ đề mới',
 	'POST_UNAPPROVED_ACTION'	=> 'Bài đăng đang chờ phê duyệt:',
 	'POST_UNAPPROVED'			=> 'Bài viết này đang chờ được chấp nhận',
+	'POST_UNAPPROVED_EXPLAIN'	=> 'Bài viết này không được hiển thị tới các thành viên khác cho đến khi được duyệt bởi quản trị viên.',
 	'POWERED_BY'				=> 'Đã tích hợp %s',
 	'PREVIEW'					=> 'Xem trước',
 	'PREVIOUS'					=> 'Trang trước', // Used in pagination
 	'PREVIOUS_STEP'				=> 'Bước trước đó',
 	'PRIVACY'					=> 'Chính sách bảo mật',
-	'PRIVATE_MESSAGE'			=> 'Tin nhắn',
-	'PRIVATE_MESSAGES'			=> 'Tin nhắn',
+	'PRIVACY_LINK'			=> 'Bảo mật',
+	'PRIVATE_MESSAGE'			=> 'Tin nhắn cá nhân',
+	'PRIVATE_MESSAGES'			=> 'Tin nhắn cá nhân',
 	'PRIVATE_MESSAGING'			=> 'Đang gửi tin nhắn',
 	'PROFILE'					=> 'Thiết lập cá nhân',
 
@@ -732,6 +745,7 @@ $lang = array_merge($lang, array(
 	'SUBMIT'					=> 'Chấp nhận',
 
 	'TB'				=> 'TB',
+	'TERMS_LINK'		=> 'Điều khoản',
 	'TERMS_USE'			=> 'Điều khoản đăng ký thành viên',
 	'TEST_CONNECTION'	=> 'Kiểm tra kết nối',
 	'THE_TEAM'			=> 'Ban điều hành',
@@ -746,43 +760,26 @@ $lang = array_merge($lang, array(
 
 	'TOO_LONG_CONFIRM_CODE'			=> 'Mã xác nhận bạn vừa nhập quá dài.',
 	'TOO_LONG_DATEFORMAT'			=> 'Định dạng ngày tháng bạn vừa nhập quá dài.',
-	'TOO_LONG_ICQ'					=> 'Số tài khoản ICQ bạn vừa nhập quá dài.',
-	'TOO_LONG_INTERESTS'			=> 'Nội dung trong phần sở thích bạn vừa nhập quá dài.',
 	'TOO_LONG_JABBER'				=> 'Tên tài khoản Jabber bạn vừa nhập quá dài.',
-	'TOO_LONG_LOCATION'				=> 'Nội dung trong phần nơi đến bạn vừa nhập quá dài.',
-	'TOO_LONG_MSN'					=> 'Tên tài khoản MSNM/WLM bạn vừa nhập quá dài.',
 	'TOO_LONG_NEW_PASSWORD'			=> 'Mật khẩu mới bạn vừa nhập quá dài.',
-	'TOO_LONG_OCCUPATION'			=> 'Nội dung trong phần nghề nghiệp bạn vừa nhập quá dài.',
 	'TOO_LONG_PASSWORD_CONFIRM'		=> 'Mật khẩu xác nhận bạn vừa nhập quá dài.',
 	'TOO_LONG_USER_PASSWORD'		=> 'Mật khẩu bạn vừa nhập quá dài.',
 	'TOO_LONG_USERNAME'				=> 'Tên thành viên bạn vừa nhập quá dài.',
 	'TOO_LONG_EMAIL'				=> 'Địa chỉ Email bạn vừa nhập quá dài.',
-	'TOO_LONG_EMAIL_CONFIRM'		=> 'Địa chỉ Email xác nhận bạn vừa nhập quá dài.',
-	'TOO_LONG_WEBSITE'				=> 'Địa chỉ website bạn vừa nhập quá dài.',
-	'TOO_LONG_YIM'					=> 'Tên tài khoản Yahoo bạn vừa nhập quá dài.',
 
 	'TOO_MANY_VOTE_OPTIONS'			=> 'Bạn không thể bình chọn cho nhiều đối tượng.',
 
 	'TOO_SHORT'						=> 'Giá trị bạn nhập vào quá ngắn.',
 
-	'TOO_SHORT_AIM'					=> 'Tên tài khoản AIM bạn vừa nhập quá ngắn.',
 	'TOO_SHORT_CONFIRM_CODE'		=> 'Mã xác nhận bạn vừa nhập quá ngắn.',
 	'TOO_SHORT_DATEFORMAT'			=> 'Định dạng ngày tháng bạn vừa nhập quá ngắn.',
-	'TOO_SHORT_ICQ'					=> 'Số tài khoản ICQ bạn vừa nhập quá ngắn.',
-	'TOO_SHORT_INTERESTS'			=> 'Nội dung trong phần sở thích bạn vừa nhập quá ngắn.',
 	'TOO_SHORT_JABBER'				=> 'Tên tài khoản Jabber bạn vừa nhập quá ngắn.',
-	'TOO_SHORT_LOCATION'			=> 'Nội dung trong phần nơi đến bạn vừa nhập quá ngắn.',
-	'TOO_SHORT_MSN'					=> 'Tên tài khoản MSNM/WLM bạn vừa nhập quá ngắn.',
 	'TOO_SHORT_NEW_PASSWORD'		=> 'Mật khẩu mới bạn vừa nhập quá ngắn.',
-	'TOO_SHORT_OCCUPATION'			=> 'Nội dung trong phần nghề nghiệp bạn vừa nhập quá ngắn.',
 	'TOO_SHORT_PASSWORD_CONFIRM'	=> 'Mật khẩu bạn vừa nhập quá ngắn.',
 	'TOO_SHORT_USER_PASSWORD'		=> 'Mật khẩu bạn vừa nhập quá ngắn.',
 	'TOO_SHORT_USERNAME'			=> 'Tên thành viên bạn vừa nhập quá ngắn.',
 	'TOO_SHORT_EMAIL'				=> 'Địa chỉ Email bạn vừa nhập quá ngắn.',
 	'TOO_SHORT_EMAIL_CONFIRM'		=> 'Địa chỉ Email xác nhận bạn vừa nhập quá ngắn.',
-	'TOO_SHORT_WEBSITE'				=> 'Địa chỉ website bạn vừa nhập quá ngắn.',
-	'TOO_SHORT_YIM'					=> 'Tên tài khoản Yahoo bạn vừa nhập quá ngắn.',
-
 	'TOO_SMALL'						=> 'Giá trị bạn nhập vào quá nhỏ.',
 	'TOO_SMALL_MAX_RECIPIENTS'		=> 'Giá trị thiết lập cho <strong>Lượng người nhận tối đa cho tin nhắn riêng</strong> quá nhỏ.',
 
@@ -796,6 +793,10 @@ $lang = array_merge($lang, array(
 	'TOPIC_REVIEW'		=> 'Xem lại chủ đề',
 	'TOPIC_TITLE'		=> 'Tiêu đề',
 	'TOPIC_UNAPPROVED'	=> 'Chủ đề này chưa được chấp nhận',
+	'TOPIC_UNAPPROVED_FORUM'	=> array(
+		1	=> 'Chủ đề đang đợi duyệt',
+		2	=> 'Chủ đề đang đợi duyệt',
+	),
 	'TOPIC_DELETED'		=> 'Chủ đề này đã bị xóa.',
 	'TOTAL_ATTACHMENTS'	=> 'Tập tin đính kèm',
 	'TOTAL_LOGS'		=> array(
@@ -826,8 +827,6 @@ $lang = array_merge($lang, array(
 	'UNKNOWN_BROWSER'		=> 'Trình duyệt không xác định',
 	'UNMARK_ALL'			=> 'Bỏ đánh dấu',
 	'UNREAD_MESSAGES'		=> 'Tin nhắn chưa xem',
-	'UNREAD_PM'				=> '<strong>%d</strong> tin nhắn chưa xem',
-	'UNREAD_PMS'			=> '<strong>%d</strong> tin nhắn chưa xem',
 	'UNREAD_POST'			=> 'Bài viết chưa xem',
 	'UNREAD_POSTS'			=> 'Bài viết chưa xem',
 	'UNWATCH_FORUM_CONFIRM'		=> 'Bạn có chắc muốn không theo dỏi chuyên mục này?',
