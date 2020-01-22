@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_RESULTS'		=> 'Xem kết quả tìm kiếm dưới dạng',
 
 	'FOUND_SEARCH_MATCHES'		=> array(
-		1	=> 'Chỉ tìm thấy <strong>%d</strong> kết quả',
+		1	=> 'Đã tìm thấy <strong>%d</strong> kết quả',
 		2	=> 'Đã tìm thấy <strong>%d</strong> kết quả',
 	),
 	'FOUND_MORE_SEARCH_MATCHES'		=> array(
