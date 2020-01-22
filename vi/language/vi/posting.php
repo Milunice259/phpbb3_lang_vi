@@ -38,13 +38,14 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ADD_ATTACHMENT'			=> 'Tải lên tập tin đính kèm',
-	'ADD_ATTACHMENT_EXPLAIN'	=> 'Nếu bạn muốn đính kèm một hay nhiều tập tin trong bài viết, hãy sử dụng công cụ bên dưới.',
-	'ADD_FILE'					=> 'Thêm tập tin',
-	'ADD_POLL'					=> 'Tạo bình chọn',
+	'ADD_ATTACHMENT_EXPLAIN'		=> 'Nếu bạn muốn đính kèm một hay nhiều tập tin trong bài viết, hãy sử dụng công cụ bên dưới.',
+	'ADD_FILE'				=> 'Thêm tập tin',
+	'ADD_POLL'				=> 'Tạo bình chọn',
 	'ADD_POLL_EXPLAIN'			=> 'Nếu bạn không muốn thêm vào một bình chọn trong chủ đề của mình, hãy để trống phần này.',
 	'ALREADY_DELETED'			=> 'Xin lỗi, bài viết này vừa bị xoá.',
+	'ATTACH_COMMENT_NO_EMOJIS'		=> 'Ghi chú file đính kèm có bao gồm các ký tự không được phép (Emoji).',
 	'ATTACH_DISK_FULL'			=> 'Dung lượng đĩa cứng không đủ để tải tập tin đính kèm này lên.',
-	'ATTACH_QUOTA_REACHED'		=> 'Xin lỗi, dung lượng cấp phép tải lên cho diễn đàn đã hết.',
+	'ATTACH_QUOTA_REACHED'			=> 'Xin lỗi, dung lượng cấp phép tải lên cho diễn đàn đã hết.',
 	'ATTACH_SIG'				=> 'Đính kèm chữ ký cá nhân (Chữ ký có thể thay đổi từ bảng điều khiển dành cho thành viên của bạn)',
 
 	'BBCODE_A_HELP'				=> 'Đính kèm tập tin trong dòng: [attachment=]tên_tập_tin.đuôi_tập_tin[/attachment]',
@@ -91,8 +92,8 @@ $lang = array_merge($lang, array(
 	'DELETE_POST_CONFIRM' => 'Bạn có chắc chắn muốn xóa bài đăng này?',
 	'DELETE_POST_PERMANENTLY_CONFIRM' => 'Bạn có chắc chắn muốn <strong> vĩnh viễn </strong> xóa bài đăng này không?',
 	'DELETE_POST_PERMANENTLY' => array(
-		1 => 'Xóa vĩnh viễn bài đăng này để bài đăng không thể khôi phục được',
-		2 => 'Xóa vĩnh viễn %1$d bài đăng để chúng không thể phục hồi',
+		1 => 'Xóa vĩnh viễn bài đăng này để tránh việc khôi phục lại',
+		2 => 'Xóa vĩnh viễn %1$d bài đăng để chúng không thể khôi phục lại',
 	),
 	'DELETE_POSTS_CONFIRM'		=> 'Bạn có chắc chắn muốn xoá bài viết này?',
 	'DELETE_POSTS_PERMANENTLY_CONFIRM' => 'Bạn có chắc chắn muốn <strong> vĩnh viễn </strong> xóa các bài đăng này không?',
@@ -102,7 +103,7 @@ $lang = array_merge($lang, array(
 	'DELETE_TOPIC_CONFIRM' => 'Bạn có chắc chắn muốn xóa chủ đề này không?',
 	'DELETE_TOPIC_PERMANENTLY' => array(
 		1 => 'Xóa vĩnh viễn chủ đề này để không thể khôi phục',
-		2 => 'Xóa vĩnh viễn %1$d chủ đề để chúng không thể phục hồi',
+		2 => 'Xóa vĩnh viễn %1$d chủ đề để chúng không thể khôi phục',
 	),
 	'DELETE_TOPIC_PERMANENTLY_CONFIRM' => 'Bạn có chắc chắn muốn <strong> vĩnh viễn </strong> xóa chủ đề này không?',
 	'DELETE_TOPICS_CONFIRM' => 'Bạn có chắc chắn muốn xóa các chủ đề này không?',
@@ -264,7 +265,6 @@ $lang = array_merge($lang, array(
 	'TOPIC_BUMPED'				=> 'Chủ đề đã được đẩy lên thành công.',
 
 	'UNAUTHORISED_BBCODE'		=> 'Bạn không thể sử dụng những thẻ lệnh BBCode sau: “%s”.',
-	'UNGLOBALISE_EXPLAIN'		=> 'Để chuyển đổi chủ đề này từ loại thông báo quan trọng thành chủ đề bình thường, bạn cần phải chọn chuyên mục chứa chủ đề này.',
 	'UNSUPPORTED_CHARACTERS_MESSAGE' => 'Thư của bạn chứa các ký tự không được hỗ trợ sau: <br /> %s',
 	'UNSUPPORTED_CHARACTERS_SUBJECT' => 'Chủ đề của bạn chứa các ký tự không được hỗ trợ sau: <br /> %s',
 	'UPDATE_COMMENT' => 'Cập nhật nhận xét',
