@@ -93,7 +93,7 @@ $lang = array_merge($lang, array(
 	'LAST_ACTIVE'				=> 'Lần hoạt động trước',
 	'LESS_THAN'					=> 'Ít hơn',
 	'LIST_USERS'				=> array(
-		1	=> '1 thành viên',
+		1	=> '%d thành viên',
 		2	=> '%d thành viên',
 	),
 	'LOGIN_EXPLAIN_TEAM'		=> 'Diễn đàn yêu cầu bạn phải đăng ký và đăng nhập để xem danh sách nhóm.',
