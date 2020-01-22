@@ -121,7 +121,7 @@ $lang = array_merge($lang, array(
 	'LATEST_WARNING_TIME'		=> 'Cảnh cáo mới nhất được đưa ra',
 	'LATEST_WARNINGS'			=> '5 cảnh cáo mới nhất',
 	'LEAVE_SHADOW'				=> 'Để lại liên kết đến chủ đề trong chuyên mục cũ',
-		'LIST_REPORTS'				=> array(
+	'LIST_REPORTS'				=> array(
 		1	=> '%d bài báo cáo',
 		2	=> '%d báo cáo',
 	),
