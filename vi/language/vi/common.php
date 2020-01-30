@@ -857,10 +857,10 @@ $lang = array_merge($lang, array(
 	'VIEWED'					=> 'Đã xem',
 	'VIEWED_COUNTS'		=> array(
 		0	=> 'Chưa được xem',
-		1	=> 'Đã xem %d thời gian',
+		1	=> 'Đã xem %d lần',
 		2	=> 'Đã xem %d lần',
 	),
-	'VIEWING_CONTACT_ADMIN'		=> 'Xem trang liên hệ',
+	'VIEWING_CONTACT_ADMIN'		=> 'Đang xem trang liên hệ',
 	'VIEWING_FAQ'				=> 'Đang xem trợ giúp',
 	'VIEWING_MEMBERS'			=> 'Đang xem thông tin cá nhân của thành viên',
 	'VIEWING_ONLINE'			=> 'Đang xem các thành viên trực tuyến',
@@ -876,18 +876,18 @@ $lang = array_merge($lang, array(
 	'VIEW_NEWEST_POST'			=> 'Xem bài viết chưa xem đầu tiên',
 	'VIEW_NOTES'				=> 'Xem phản hồi về thành viên',
 	'VIEW_ONLINE_TIMES'			=> array(
-		1	=> 'Thông tin cập nhật mỗi <strong>%d</strong> phút',
-		2	=> 'Thông tin cập nhật mỗi <strong>%d</strong> phút',
+		1	=> 'dựa trên số thành viên hoạt động trong <strong>%d</strong> phút vừa qua',
+		2	=> 'dựa trên số thành viên hoạt động trong <strong>%d</strong> phút vừa qua',
 	),
 	'VIEW_TOPIC'				=> 'Xem chủ đề',
 	'VIEW_TOPIC_ANNOUNCEMENT'	=> 'Thông báo: ',
 	'VIEW_TOPIC_GLOBAL'			=> 'Thông báo chung: ',
 	'VIEW_TOPIC_LOCKED'			=> 'Đã khoá: ',
-	'VIEW_TOPIC_LOGS'			=> 'Xem ghi nhận chủ đề',
-	'VIEW_TOPIC_MOVED'			=> 'Di chuyển: ',
+	'VIEW_TOPIC_LOGS'			=> 'Xem nhật ký',
+	'VIEW_TOPIC_MOVED'			=> 'Đã chuyển: ',
 	'VIEW_TOPIC_POLL'			=> 'Bình chọn: ',
 	'VIEW_TOPIC_STICKY'			=> 'Chú ý: ',
-	'VISIT_WEBSITE'				=> 'Ghé thăm website',
+	'VISIT_WEBSITE'				=> 'Ghé thăm trang',
 
 	'WARNINGS'			=> 'Cảnh cáo',
 	'WARN_USER'			=> 'Cảnh cáo thành viên',
@@ -896,9 +896,9 @@ $lang = array_merge($lang, array(
 	'WATCH_TOPIC_CONFIRM'	=> 'Bạn có chắc muốn theo dỏi chủ đề này?',
 	'WATCH_TOPIC_DETAILED'	=> 'Bạn có chắc muốn theo dỏi chủ đề “%s”?',
 	'WELCOME_SUBJECT'	=> 'Chào mừng bạn đã đến với %s!',
-	'WEBSITE'			=> 'Website',
-	'WHOIS'				=> 'Tra cứu địa chỉ IP',
-	'WHO_IS_ONLINE'		=> 'Ai đang trực tuyến?',
+	'WEBSITE'			=> 'Trang web',
+	'WHOIS'				=> 'Whois',
+	'WHO_IS_ONLINE'		=> 'Đang trực tuyến',
 	'WRONG_PASSWORD'	=> 'Bạn vừa nhập mật khẩu không chính xác.',
 
 	'WRONG_DATA_COLOUR'			=> 'The colour value you entered is invalid.',
@@ -915,21 +915,16 @@ $lang = array_merge($lang, array(
 	'YEAR'				=> 'Năm',
 	'YEAR_MONTH_DAY'	=> '(YYYY-MM-DD)',
 	'YES'				=> 'Đồng ý',
-	'YIM'				=> 'Tài khoản Yahoo',
 	'YOU_LAST_VISIT'	=> 'Lần ghé thăm trước: %s',
-	'YOU_NEW_PM'		=> 'Bạn có một tin nhắn mới trong hộp tin nhận của mình.',
-	'YOU_NEW_PMS'		=> 'Bạn có nhiều tin nhắn mới trong hộp tin nhận của mình.',
-	'YOU_NO_NEW_PM'		=> 'Bạn không có tin nhắn mới nào trong hộp tin nhận của mình.',
 
 	'datetime'			=> array(
 		'TODAY'		=> 'Hôm nay',
 		'TOMORROW'	=> 'Ngày mai',
 		'YESTERDAY'	=> 'Hôm qua',
 		'AGO'		=> array(
-			0		=> 'một phút trước',
+			0		=> 'chưa đến 1 phút trước',
 			1		=> '%d phút trước',
 			2		=> '%d phút trước',
-			60		=> '1 giờ trước',
 		),
 
 		'Sunday'	=> 'Chủ nhật',
@@ -1440,17 +1435,17 @@ $lang = array_merge($lang, array(
 
 	// The value is only an example and will get replaced by the current time on view
 	'dateformats'			=> array(
-		'D d/m/y G:i'		=> 'Thứ 2 01/01/07, 13:37',
 		'd M Y, H:i'		=> '01 Tháng 1 2007, 13:37',
-		'd M Y H:i'			=> '01 Tháng 1 2007 13:37',
+		'd M Y H:i'		=> '01 Tháng 1 2007 13:37',
 		'M d, \'y, H:i'		=> 'Tháng 1 01, \'07, 13:37', // Replaced 'jS' by 'd' for Vietnamese
 		'D M d, Y g:i a'	=> 'Thứ 2 Tháng 1 01, 2007 1:37 pm',
 		'F d, Y, g:i a'		=> 'Tháng một 01, 2007, 1:37 pm', // Replaced 'jS' by 'd' for Vietnamese
+		'|d M Y|, H:i'		=> 'Hôm nay, 13:37 / 01 Tháng 1 2007, 13:37',
 		'|F d, Y|, g:i a'	=> 'Hôm nay, 1:37 pm / Tháng một 01, 2007, 1:37 pm' // Replaced 'jS' by 'd' for Vietnamese
 	),
 
 	// The default dateformat which will be used on new installs in this language
 	// Translators should change this if a the usual date format is different
-	'default_dateformat'	=> 'D d/m/y G:i', // Mon 01 Jan, 2007 1:37 pm
+	'default_dateformat'	=> 'd M Y, H:i', // Mon 01 Jan, 2007 1:37 pm
 
 ));
