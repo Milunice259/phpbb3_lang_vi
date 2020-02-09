@@ -1,4 +1,4 @@
-Subject: Chào mừng bạn đã đến với "{SITENAME}" - {U_BOARD}
+Subject: Chào mừng bạn đã đến với "{SITENAME}"
 
 {WELCOME_MSG}
 
