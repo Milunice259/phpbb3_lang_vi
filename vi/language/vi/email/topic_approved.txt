@@ -1,6 +1,6 @@
 Subject: Chủ đề được chấp nhận - "{TOPIC_TITLE}"
 
-Chào bạn, "{USERNAME}"
+Chào bạn {USERNAME},
 
 Bạn nhận được thông báo này bởi vì chủ đề của bạn "{TOPIC_TITLE}" trong website "{SITENAME}" đã được chấp nhận bởi một điều hành viên hoặc quản trị viên của website.
 
