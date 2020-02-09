@@ -1,8 +1,8 @@
-Subject: Chào mừng bạn đã đến với "{SITENAME}" - {U_BOARD}
+Subject: Chào mừng bạn đã đến với "{SITENAME}"
 
 {WELCOME_MSG}
 
-Bạn đã đồng ý với điều khoản đăng ký thành viên COPPA, vì thế tài khoản hiện tại của bạn sẽ chưa được kích hoạt.
+Để tuân thủ theo COPPA, tài khoản của bạn đang tạm khóa.
 
 Hãy vui lòng in Email này ra rồi đưa cho cha mẹ hay người bảo hộ của bạn ký tên và ghi ngày tháng vào đây. Sau đó Fax lại đến địa chỉ:
 {FAX_INFO}
@@ -10,9 +10,9 @@ Hãy vui lòng in Email này ra rồi đưa cho cha mẹ hay người bảo hộ
 Hoặc gửi Email về địa chỉ:
 {MAIL_INFO}
 
--8<----------------------------- CẮT TẠI ĐÂY ------------------------------
+----------------------------- CẮT TẠI ĐÂY ------------------------------
 
-Đồng ý cho phép tham gia vào website "{SITENAME}"
+Đồng ý cho phép tham gia vào website "{SITENAME}" - {U_BOARD}
 
 Tên thành viên: {USERNAME}
 Địa chỉ Email: {EMAIL_ADDRESS}
@@ -29,7 +29,7 @@ Cha mẹ hoặc người bảo hộ
 
 Ngày tháng: _______________
 
--8<----------------------------- CẮT TẠI ĐÂY ------------------------------
+----------------------------- CẮT TẠI ĐÂY ------------------------------
 
 Sau khi người quản trị nhận được cam kết bên trên thông qua địa chỉ Fax hay Email, tài khoản của bạn sẽ được kích hoạt.
 
