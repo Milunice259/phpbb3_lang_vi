@@ -89,6 +89,7 @@ $lang = array_merge($lang, array(
 	'ATTACHMENTS_EXPLAIN'			=> 'Đây là danh sách tất cả các tập tin đính kèm mà bạn đã gửi trong diễn đàn.',
 	'ATTACHMENTS_DELETED'			=> 'Những tập tin đính kèm bạn vừa chọn đã được xoá thành công.',
 	'ATTACHMENT_DELETED'			=> 'Tập tin đính kèm bạn vừa chọn đã được xoá thành công.',
+	'ATTACHMENT_LOCKED'				=> 'Chủ đề đã bị khóa, bạn không thể xóa file đính kèm.',
 	'AUTOLOGIN_SESSION_KEYS_DELETED' => 'Các khóa đăng nhập "Remember Me" đã chọn đã được xóa thành công.','A0VATAR_CATEGORY'				=> 'Chủ đề hình đại diện',
 	'AVATAR_CATEGORY' => 'Danh mục',
 	'AVATAR_DRIVER_GRAVATAR_TITLE' => 'Gravatar',
@@ -115,7 +116,7 @@ $lang = array_merge($lang, array(
 	'BIRTHDAY'					=> 'Sinh nhật',
 	'BIRTHDAY_EXPLAIN'			=> 'Thiết lập ngày, tháng, năm cho sinh nhật của bạn.',
 	'BOARD_DATE_FORMAT'			=> 'Định dạng ngày tháng của bạn',
-	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'Sử dụng cú pháp giống như hàm <a href="http://www.php.net/date">date()</a> trong <strong>PHP</strong>.',
+	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'Sử dụng cú pháp giống như hàm <a href="https://secure.php.net/manual/function.date.php">date()</a> trong PHP.',
 	'BOARD_LANGUAGE'			=> 'Ngôn ngữ',
 	'BOARD_STYLE'				=> 'Giao diện',
 	'BOARD_TIMEZONE'			=> 'Múi giờ',
@@ -135,7 +136,7 @@ $lang = array_merge($lang, array(
 	'CLICK_RETURN_FOLDER'			=> '%1$sQuay về thư mục “%3$s” của bạn%2$s',
 	'CONFIRMATION'					=> 'Xác nhận đăng ký',
 	'CONFIRM_CHANGES'				=> 'Xác nhận thay đổi',	
-	'CONFIRM_EXPLAIN'				=> 'Để ngăn chặn việc lợi dụng đăng ký tự động hàng loạt, hệ thống yêu cầu bạn phải nhập vào một đoạn mã xác nhận khi đăng ký. Mã xác nhận được hiển thị trong hình ảnh mà bạn nhìn thấy bên dưới. Nếu thị lực của bạn kém hoặc bạn không thể nhìn thấy đoạn mã này vì một lý do nào đó, hãy vui lòng liên hệ với %sngười quản trị%s.',
+	'CONFIRM_EXPLAIN'				=> 'Để ngăn chặn việc lợi dụng đăng ký tự động hàng loạt, hệ thống yêu cầu bạn phải nhập vào một đoạn mã xác nhận khi đăng ký. Mã xác nhận được hiển thị trong hình ảnh mà bạn nhìn thấy bên dưới. Nếu thị lực của bạn kém hoặc bạn không thể nhìn thấy đoạn mã này vì một lý do nào đó, hãy vui lòng liên hệ với %sBan quản trị%s.',
 	'VC_REFRESH'					=> 'Tạo lại mã xác nhận',
 	'VC_REFRESH_EXPLAIN'			=> 'Nếu bạn không đọc được đoạn mã này thì hãy nhấn vào nút sau để tạo một mã khác.',
 	
@@ -197,7 +198,7 @@ $lang = array_merge($lang, array(
 	'EXPORT_AS_MSG'				=> 'Xuất ra định dạng CSV MSG',
 	'EXPORT_FOLDER'				=> 'Xuất mục đang xem',
 
-	'FIELD_REQUIRED'					=> 'Mục thông tin “%s” không được để trống.',
+	'FIELD_REQUIRED'					=> 'Mục “%s” không được để trống.',
 	'FIELD_TOO_SHORT'					=> array(
 		1	=>	 'Trường "%2$s" quá ngắn, cần có tối thiểu %1$d ký tự.',
 		2 	=>	 'Trường "%$s" quá ngắn, cần tối thiểu %1$d ký tự.',
@@ -229,8 +230,8 @@ $lang = array_merge($lang, array(
 	'FOES_UPDATED'				=> 'Danh sách những kẻ thù của bạn đã được cập nhật thành công.',
 	'FOLDER_ADDED'				=> 'Thư mục đã được tạo thành công.',
 	'FOLDER_MESSAGE_STATUS'		=> array(
-		1	=> '%2$d out of %1$s stored',
-		2	=> '%2$d out of %1$s stored',
+		1	=> '%2$d trong số %1$s đã được lưu trữ',
+		2	=> '%2$d trong số %1$s đã được lưu trữ',
 	),	
 	'FOLDER_NAME_EMPTY'			=> 'Bạn phải nhập tên cho thư mục.',
 	'FOLDER_NAME_EXIST'			=> 'Thư mục mang tên “%s” đã có rồi.',
@@ -238,8 +239,8 @@ $lang = array_merge($lang, array(
 	'FOLDER_RENAMED'			=> 'Thư mục đã được đổi tên thành công.',
 	'FOLDER_REMOVED'			=> 'Thư mục đã được gỡ bỏ thành công.',
 	'FOLDER_STATUS_MSG'			=> array(
-		1	=> 'Folder is %3$d%% full (%2$d out of %1$s stored)',
-		2	=> 'Folder is %3$d%% full (%2$d out of %1$s stored)',
+		1	=> 'Thư mục đầy %3$d%% (%2$d trong số %1$s đã lưu)',
+		2	=> 'Thư mục đầy %3$d%% (%2$d trong số %1$s đã lưu)',
 	),
 	'FORWARD_PM'				=> 'Chuyển tiếp tin nhắn',
 	'FORCE_PASSWORD_EXPLAIN'	=> 'Trước khi bạn có thể tiếp tục truy cập website, bạn được yêu cầu phải thay đổi mật khẩu hiện tại của mình.',
@@ -311,7 +312,7 @@ $lang = array_merge($lang, array(
 	'MOVE_DELETED_MESSAGES_TO'		=> 'Di chuyển những tin nhắn từ thư mục đã gỡ bỏ đến',
 	'MOVE_DOWN'						=> 'Di chuyển xuống',
 	'MOVE_MARKED_TO_FOLDER'			=> 'Di chuyển tin nhắn đã đánh dấu đến “%s”',
-		'MOVE_PM_ERROR'					=> array(
+	'MOVE_PM_ERROR'					=> array(
 		1	=> 'Có lỗi xảy ra khi thực hiện di chuyển tin nhắn tới thư mục mới, chỉ có %2$d trong số %1$s tin nhắn đã được di chuyển.',
 		2	=> 'Có lỗi xảy ra khi thực hiện di chuyển tin nhắn tới thư mục mới, chỉ có %2$d trong số %1$s tin nhắn đã được di chuyển.',
 	),
@@ -361,7 +362,7 @@ $lang = array_merge($lang, array(
 	'NOT_ADDED_FOES_FRIENDS'		=> 'Bạn không thể thêm những thành viên đang có trong danh sách bạn thân vào danh sách kẻ thù của mình.',
 	'NOT_ADDED_FOES_SELF'			=> 'Bạn không thể thêm chính mình vào danh sách kẻ thù.',
 	'NOT_AGREE'						=> 'Tôi không đồng ý với những điều khoản trên',
-	'NOT_ENOUGH_SPACE_FOLDER'		=> 'Dung lượng thư mục bạn chọn <strong>%s</strong> dường như đã bị đầy. Yêu cầu vừa rồi bị từ chối.',
+	'NOT_ENOUGH_SPACE_FOLDER'		=> 'Dung lượng thư mục bạn chọn "%s" dường như đã bị đầy. Yêu cầu vừa rồi bị từ chối.',
 	'NOT_MOVED_MESSAGES'			=> array(
 		1	=> 'Bạn có %d tin nhắn riêng hiện đang bị giữ vì thư mục đầy.',
 		2	=> 'Bạn có %d tin nhắn riêng hiện đang bị giữ vì thư mục đầy.',
@@ -375,7 +376,6 @@ $lang = array_merge($lang, array(
 	'NO_AUTH_EDIT_MESSAGE'			=> 'Bạn không được phép sửa tin nhắn.',
 	'NO_AUTH_FORWARD_MESSAGE'		=> 'Bạn không được phép chuyển tiếp tin nhắn.',
 	'NO_AUTH_GROUP_MESSAGE'			=> 'Bạn không được phép gửi tin nhắn đến nhóm thành viên.',
-	'NO_AUTH_PASSWORD_REMINDER'		=> 'Bạn không được phép yêu cầu mật khẩu mới.',
 	'NO_AUTH_PROFILEINFO'			=> 'Bạn không được phép thay đổi thông tin hồ sơ của mình.',
 	'NO_AUTH_READ_HOLD_MESSAGE'		=> 'Bạn không được phép đọc tin nhắn riêng đang bị giữ lại.',
 	'NO_AUTH_READ_MESSAGE'			=> 'Bạn không được phép xem tin nhắn.',
@@ -594,7 +594,7 @@ $lang = array_merge($lang, array(
 	'VIEW_PM'					=> 'Xem tin nhắn',
 	'VIEW_PM_INFO'				=> 'Thông tin chi tiết về tin nhắn',
 	'VIEW_PM_MESSAGES'			=> array(
-		1	=> '%d thông điệp',
+		1	=> '%d tin nhắn',
 		2	=> '%d tin nhắn',
 	),
 	'VIEW_PREVIOUS_HISTORY'		=> 'Tin nhắn trước trong quá trình gửi tin',
