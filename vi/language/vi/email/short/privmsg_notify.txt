@@ -1,8 +1,8 @@
 Subject: Bạn có tin nhắn mới
 
-Chào bạn, {USERNAME}
+Chào bạn {USERNAME},
 
-Bạn có một tin nhắn mới được gửi đến từ thành viên {AUTHOR_NAME} đến tài khoản của bạn tại "{SITENAME}" với tiêu đề là:
+Bạn có một tin nhắn mới được gửi đến từ thành viên "{AUTHOR_NAME}" đến tài khoản của bạn tại "{SITENAME}" với tiêu đề là:
 {SUBJECT}
 
 Bạn có thể xem nội dung của tin nhắn này bằng cách bấm vào liên kết dưới đây:
