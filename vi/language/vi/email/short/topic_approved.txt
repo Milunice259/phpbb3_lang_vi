@@ -1,6 +1,6 @@
 Subject: Chủ đề đã được duyệt - "{TOPIC_TITLE}"
 
-Chào bạn, {USERNAME}
+Chào bạn {USERNAME},
 
 Bạn nhận được thông báo này bởi vì chủ đề "{TOPIC_TITLE}" của bạn tại diễn đàn "{SITENAME}" đã được duyệt bởi một điều hành viên hoặc quản trị viên.
 
