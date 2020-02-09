@@ -1,6 +1,6 @@
 Subject: Báo cáo bài viết - "{TOPIC_TITLE}"
 
-Chào bạn, {USERNAME}
+Chào bạn {USERNAME},
 
 Bạn nhận được thông báo này vì bài viết "{POST_SUBJECT}" tại diễn đàn "{SITENAME}" đã được báo cáo.
 
