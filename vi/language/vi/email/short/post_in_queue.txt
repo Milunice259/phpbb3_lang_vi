@@ -1,6 +1,6 @@
 Subject: Thông báo kiểm duyệt bài viết - "{TOPIC_TITLE}"
 
-Chào bạn, {USERNAME}
+Chào bạn {USERNAME},
 
 Bạn nhận được thông báo này vì bài viết "{POST_SUBJECT}" của bạn tại diễn đàn "{SITENAME}" cần được kiểm duyệt trước khi đăng.
 
