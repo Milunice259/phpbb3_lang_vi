@@ -38,15 +38,15 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'RECAPTCHA_LANG'				=> 'vi',
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'Ðể sử dụng reCaptcha, bạn cần tạo một tài khoản tại <a href="http://recaptcha.net">reCaptcha.net</a>.',
+	'RECAPTCHA_NOT_AVAILABLE'		=> 'Ðể sử dụng reCaptcha, bạn cần tạo một tài khoản tại <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
 	'RECAPTCHA_INCORRECT'			=> 'Thông tin hình ảnh bạn nhập chưa chính xác',
 	'RECAPTCHA_NOSCRIPT'			=> 'Please enable JavaScript in your browser to load the challenge.',
 
 	'RECAPTCHA_PUBLIC'				=> 'Mã reCaptcha công cộng',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Mã reCaptcha công cộng của bạn. Mã này có thể đăng ký tại trang web <a href="http://recaptcha.net">reCaptcha.net</a>.',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Mã reCaptcha công cộng của bạn. Mã này có thể đăng ký tại trang web <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'RECAPTCHA_PRIVATE'				=> 'Mã reCaptcha bí mật',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Mã reCaptcha bí mật của bạn. Mã này có thể đăng ký tại trang web <a href="http://recaptcha.net">reCaptcha.net</a>.',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Mã reCaptcha bí mật của bạn. Mã này có thể đăng ký tại trang web <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'Để chắc rằng bạn không phải là các máy đăng ký tự động, cảm phiền bạn nhập vào hai chữ nhìn thấy vào trong ô bên duới.',
+	'RECAPTCHA_INVISIBLE'				=> 'Mã CAPTCHA này đang ẩn. Để xác nhận là nó đang hoạt động, một icon nhỏ sẽ xuất hiện bên phải góc dưới trang này.',
 ));
