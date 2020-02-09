@@ -1,6 +1,6 @@
 Subject: Thông báo trả lời chủ đề - "{TOPIC_TITLE}"
 
-Chào bạn, {USERNAME}
+Chào bạn {USERNAME},
 
 Bạn nhận được thông báo này vì chủ để "{TOPIC_TITLE}" mà bạn đã đánh dấu tại diễn đàn "{SITENAME}" có một bài trả lời mới kể từ lần ghé thăm trước của bạn. Bạn có thể sử dụng liên kết bên dưới để xem lại và trả lời. Sẽ không có thêm bất kì thông báo nào nữa gửi đến bạn cho đến khi bạn xem lại chủ đề.
 
