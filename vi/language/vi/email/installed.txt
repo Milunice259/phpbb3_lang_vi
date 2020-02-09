@@ -8,7 +8,6 @@ Email này chứa những thông tin quan trọng trong quá trình cài đặt 
 
 --------------------------------------------------------
 Tên thành viên: {USERNAME}
-Mật khẩu: {PASSWORD}
 
 Địa chỉ URL: {U_BOARD}
 --------------------------------------------------------
