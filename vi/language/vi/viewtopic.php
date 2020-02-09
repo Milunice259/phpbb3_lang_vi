@@ -57,15 +57,15 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_NOTICE' 			=> 'Bạn không có quyền cần thiết để xem các tệp đính kèm với bài đăng này.',
 
 	'EDITED_TIMES_TOTAL'	=> array(
-		1	=> 'Sửa lần cuối bởi <strong>%1$s</strong> vào ngày %2$s với %3$d lần sửa trong tổng số.',
-		2	=> 'Sửa lần cuối bởi <strong>%1$s</strong> vào ngày %2$s với %3$d lần sửa trong tổng số.',
+		1	=> 'Sửa lần cuối bởi %2$s vào %3$s, đã chỉnh sửa tổng cộng %1$d lần.',
+		2	=> 'Sửa lần cuối bởi %2$s vào %3$s, đã chỉnh sửa tổng cộng %1$d lần.',
 	),
-	'EMAIL_TOPIC'				=> 'Gửi Email giới thiệu',
+	'EMAIL_TOPIC'				=> 'Email chủ đề',
 	'ERROR_NO_ATTACHMENT'			=> 'Tập tin đính kèm bạn vừa chọn không tồn tại.',
 
 	'FILE_NOT_FOUND_404'			=> 'Tập tin <strong>%s</strong> không tồn tại.',
 	'FORK_TOPIC'				=> 'Sao chép chủ đề',
-	'FULL_EDITOR'				=> 'Trình soạn thảo đầy đủ',
+	'FULL_EDITOR'				=> 'Trình soạn thảo đầy đủ &amp; Xem trước',
 
 	'LINKAGE_FORBIDDEN'			=> 'Bạn không được phép xem, tải về hoặc liên kết đến website này.',
 	'LOGIN_NOTIFY_TOPIC'			=> 'Hãy vui lòng đăng nhập để xem chủ đề này.',
@@ -76,10 +76,10 @@ $lang = array_merge($lang, array(
 	'MAKE_NORMAL'				=> 'Thay đổi thành “Bài viết bình thường”',
 	'MAKE_STICKY'				=> 'Thay đổi thành “Chú ý”',
 	'MAX_OPTIONS_SELECT'		=> array(
-		1	=> 'Bạn chỉ có thể chọn <strong>1</strong> đối tượng bình chọn',
-		2	=> 'Bạn có thể chọn đến <strong>%d</strong> đối tượng bình chọn',
+		1	=> 'Bạn chỉ có thể chọn <strong>%d</strong> lựa chọn',
+		2	=> 'Bạn có thể chọn đến <strong>%d</strong> lựa chọn',
 	),	
-	'MISSING_INLINE_ATTACHMENT'	=> 'Tập tin đính kèm <strong>%s</strong> hiện tại không còn trên máy chủ',
+	'MISSING_INLINE_ATTACHMENT'	=> 'Tập tin đính kèm <strong>%s</strong> hiện tại không còn tồn tại',
 	'MOVE_TOPIC'				=> 'Di chuyển chủ đề',
 
 	'NO_ATTACHMENT_SELECTED'=> 'Bạn chưa chọn tập tin đính kèm để xem hoặc tải về.',
@@ -88,19 +88,20 @@ $lang = array_merge($lang, array(
 	'NO_UNREAD_POSTS'		=> 'Không có bài viết chưa xem mới nào trong chủ đề này.',
 	'NO_VOTE_OPTION'		=> 'Bạn phải chọn một đối tượng khi bình chọn.',
 	'NO_VOTES'				=> 'Không có bình chọn',
-
+	'NO_AUTH_PRINT_TOPIC'	=> 'Bạn không có quyền in chủ đề.',
+	
 	'POLL_ENDED_AT'			=> 'Bình chọn này sẽ kết thúc vào ngày %s',
 	'POLL_RUN_TILL'			=> 'Bình chọn cho đến ngày %s',
 	'POLL_VOTED_OPTION'		=> 'Bạn đã bình chọn cho đối tượng này',
 	'POST_DELETED_RESTORE'	=> 'Bài viết đã bị xóa. Nó có thể được phục hồi.',
-	'PRINT_TOPIC'			=> 'In xem',
+	'PRINT_TOPIC'			=> 'In',
 
-	'QUICK_MOD'				=> 'Công cụ',
+	'QUICK_MOD'				=> 'Công cụ trả lời nhanh',
 	'QUICKREPLY'			=> 'Trả lời nhanh',
 	'QUOTE'					=> 'Trích dẫn',
 
 	'REPLY_TO_TOPIC'		=> 'Gửi bài trả lời',
-	'RESTORE'				=> 'Restore',
+	'RESTORE'				=> 'Khôi phục',
 	'RESTORE_TOPIC'			=> 'Khôi phục chủ đề',
 	'RETURN_POST'			=> '%sQuay lại bài đăng%s',
 
@@ -111,7 +112,7 @@ $lang = array_merge($lang, array(
 
 	'UNLOCK_TOPIC'			=> 'Mở khoá chủ đề',
 
-	'VIEW_INFO'				=> 'Thông tin chi tiết về bài viết',
+	'VIEW_INFO'				=> 'Chi tiết bài đăng',
 	'VIEW_NEXT_TOPIC'		=> 'Chủ đề kế tiếp',
 	'VIEW_PREVIOUS_TOPIC'	=> 'Chủ đề trước',
 	'VIEW_RESULTS'			=> 'Xem kết quả bình chọn',
