@@ -74,8 +74,8 @@ $lang = array_merge($lang, array(
 	'CANNOT_POST_STICKY'		=> 'Xin lỗi, bạn không thể tạo chú ý.',
 	'CHANGE_TOPIC_TO'			=> 'Thay đổi loại chủ đề thành',
 	'CHARS_POST_CONTAINS' => array(
-		1 => 'Thư của bạn chứa %1$d ký tự.',
-		2 => 'Thư của bạn chứa %1$d ký tự.',
+		1 => 'Tin nhắn của bạn chứa %1$d ký tự.',
+		2 => 'Tin nhắn của bạn chứa %1$d ký tự.',
 	),
 	'CHARS_SIG_CONTAINS' => array(
 		1 => 'Chữ ký của bạn chứa %1$d ký tự.',
@@ -146,18 +146,19 @@ $lang = array_merge($lang, array(
 	'LOAD_DRAFT_EXPLAIN'		=> 'Với công cụ này, bạn có thể chọn cho mình bản nháp để tiếp tục soạn bài viết. Bài viết hiện tại của bạn sẽ được huỷ bỏ và tất cả nội dung trong bài viết sẽ được xoá. Xem, sửa và xoá những bản nháp trong bảng điều khiển thành viên của bạn.',
 	'LOGIN_EXPLAIN_BUMP'		=> 'Bạn cần phải đăng nhập để đẩy các chủ đề trong chuyên mục này.',
 	'LOGIN_EXPLAIN_DELETE'		=> 'Bạn cần phải đăng nhập để xóa các bài viết trong chuyên mục này.',
+	'LOGIN_EXPLAIN_SOFT_DELETE'	=> 'Bạn cần phải đăng nhập để tạm xóa các bài viết trong chuyên mục này.',
 	'LOGIN_EXPLAIN_POST'		=> 'Bạn cần phải đăng nhập để gửi bài trong chuyên mục này.',
 	'LOGIN_EXPLAIN_QUOTE'		=> 'Bạn cần phải đăng nhập để trích dẫn các bài viết trong chuyên mục này.',
 	'LOGIN_EXPLAIN_REPLY'		=> 'Bạn cần phải đăng nhập để trả lời các chủ đề trong chuyên mục này.',
 
 	'MAX_FONT_SIZE_EXCEEDED'	=> 'Bạn chỉ có thể chọn kích thước văn bản tối đa là <strong>%1$d</strong>.',
 	'MAX_FLASH_HEIGHT_EXCEEDED' => array(
-		1 => 'Tệp flash của bạn chỉ có thể cao tới %d pixel.',
+		1 => 'Các tệp flash của bạn chỉ có thể cao tới %d pixel.',
 		2 => 'Các tệp flash của bạn chỉ có thể cao tới %d pixel.',
 	),
 	'MAX_FLASH_WIDTH_EXCEEDED' => array(
 		1 => 'Các tệp flash của bạn chỉ có thể rộng tới %d pixel.',
-		2 => 'Các tệp flash của bạn chỉ có thể rộng tối đa %d pixel.',
+		2 => 'Các tệp flash của bạn chỉ có thể rộng tới %d pixel.',
 	),
 	'MAX_IMG_HEIGHT_EXCEEDED' => array(
 		1 => 'Hình ảnh của bạn chỉ có thể cao tới %1$d pixel.',
@@ -198,7 +199,7 @@ $lang = array_merge($lang, array(
 	'POLL_OPTIONS'				=> 'Đối tượng bình chọn',
 	'POLL_OPTIONS_EXPLAIN'		=> array(
 		1	=> 'Đặt mỗi tùy chọn trên một dòng mới. Bạn có thể nhập tùy chọn <strong>%d</strong>.',
-		2	=> 'Đặt mỗi tùy chọn trên một dòng mới. Bạn có thể nhập tối đa <strong>%d</strong> tùy chọn.',
+		2	=> 'Đặt mỗi tùy chọn trên một dòng mới. Bạn có thể nhập tới <strong>%d</strong> tùy chọn.',
 	),
 	'POLL_OPTIONS_EDIT_EXPLAIN'		=> array(
 		1	=> 'Đặt mỗi tùy chọn trên một dòng mới. Bạn có thể nhập tùy chọn <strong>%d</strong>. Nếu bạn xóa hoặc thêm tùy chọn, tất cả các phiếu bầu trước đó sẽ được đặt lại.',
@@ -229,10 +230,10 @@ $lang = array_merge($lang, array(
 	'PROGRESS_BAR'				=> 'Thanh tiến trình',
 
 	'QUOTE_DEPTH_EXCEEDED'		=> array(
-		1	=> 'You may embed only %d quote within each other.',
-		2	=> 'You may embed only %d quotes within each other.',
+		1	=> 'Bạn chỉ có thể chèn %d trích dẫn bên trong nhau.',
+		2	=> 'Bạn chỉ có thể chèn %d trích dẫn bên trong nhau.',
 	),
-	'QUOTE_NO_NESTING'			=> 'Bạn không được nhúng dấu ngoặc kép vào nhau.',
+	'QUOTE_NO_NESTING'			=> 'Bạn không được chèn trích dẫn vào nhau.',
 
 	'REMOTE_UPLOAD_TIMEOUT'		=> 'Không thể tải lên tệp được chỉ định vì yêu cầu đã hết thời gian chờ.',
 	'SAVE'						=> 'Lưu',
