@@ -1,6 +1,6 @@
 Subject: Bạn có tin nhắn mới
 
-Chào bạn, "{USERNAME}"
+Chào bạn {USERNAME},
 
 Bạn có một tin nhắn mới được gửi đến từ thành viên "{AUTHOR_NAME}" thông qua tài khoản của bạn trong website "{SITENAME}" với tiêu đề là:
 {SUBJECT}
