@@ -1,7 +1,7 @@
 Subject: Thông báo có bài trả lời mới - "{TOPIC_TITLE}"
 List-Unsubscribe: <{U_STOP_WATCHING_TOPIC}>
 
-Chào bạn, "{USERNAME}"
+Chào bạn {USERNAME},
 
 Bạn nhận được thông báo này bởi vì bạn đã chọn theo dõi chủ đề "{TOPIC_TITLE}" trong website "{SITENAME}". Chủ đề này vừa có một bài trả lời mới <!-- IF AUTHOR_NAME != '' --> từ {AUTHOR_NAME}<!-- ENDIF --> kể từ lần ghé thăm trước của bạn. Sẽ không có thông báo nào nữa gửi đến cho bạn về chủ đề này cho tới khi bạn đã xem nó.
 
