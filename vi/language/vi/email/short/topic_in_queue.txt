@@ -1,6 +1,6 @@
 Subject: Thông báo kiểm duyệt chủ đề - "{TOPIC_TITLE}"
 
-Chào bạn, {USERNAME}
+Chào bạn {USERNAME},
 
 Bạn nhận được thông báo này vì chủ đề "{TOPIC_TITLE}" của bạn tại diễn đàn "{SITENAME}" cần được kiểm duyệt nội dung trước khi đăng.
 
