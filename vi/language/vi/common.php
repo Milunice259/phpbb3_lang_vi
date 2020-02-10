@@ -368,7 +368,7 @@ $lang = array_merge($lang, array(
 	'IP_BLACKLISTED'			=> 'Địa chỉ IP của bạn %1$s đã bị chặn bởi vì nó có trong danh sách ngăn cấm. Để biết thêm chi tiết, hãy vui lòng xem tại đây <a href="%2$s">%2$s</a>.',
 
 	'JABBER'				=> 'Tài khoản Jabber',
-	'JOINED'				=> 'Ngày tham gia',
+	'JOINED'				=> 'Tham gia',
 	'JUMP_PAGE'				=> 'Nhập vào số trang bạn muốn chuyển đến.',
 	'JUMP_TO'				=> 'Chuyển đến',
 	'JUMP_TO_PAGE'			=> 'Bấm vào đây để chuyển đến trang…',
@@ -559,18 +559,18 @@ $lang = array_merge($lang, array(
 	),
 
 	'OCCUPATION'				=> 'Nghề nghiệp',
-	'OFFLINE'					=> 'Ngoại tuyến',
-	'ONLINE'					=> 'Trực tuyến',
+	'OFFLINE'					=> 'Offline',
+	'ONLINE'					=> 'Online',
 	'ONLINE_BUDDIES'			=> 'Bạn thân đang trực tuyến',
 	// "... :: x registered and y hidden"
 	'ONLINE_USERS_TOTAL'		=> array(
-		1	=> 'Tổng cộng có <strong>%1$d</strong> người dùng trực tuyến :: %2$s và %3$s',
-		2	=> 'Tổng cộng có <strong>%1$d</strong> người dùng trực tuyến :: %2$s và %3$s',
+		1	=> 'Tổng cộng có <strong>%1$d</strong> người dùng trực tuyến : %2$s và %3$s',
+		2	=> 'Tổng cộng có <strong>%1$d</strong> người dùng trực tuyến : %2$s và %3$s',
 	),
 	// "... :: x registered, y hidden and z guests"
 	'ONLINE_USERS_TOTAL_GUESTS'	=> array(
-		1	=> 'Tổng cộng có <strong>%1$d</strong> người dùng trực tuyến :: %2$s, %3$s và %4$s',
-		2	=> 'Tổng cộng có <strong>%1$d</strong> người dùng trực tuyến :: %2$s, %3$s và %4$s',
+		1	=> 'Tổng cộng có <strong>%1$d</strong> người dùng trực tuyến : %2$s, %3$s và %4$s',
+		2	=> 'Tổng cộng có <strong>%1$d</strong> người dùng trực tuyến : %2$s, %3$s và %4$s',
 	),
 	'OPTIONS'					=> 'Tuỳ chọn',
 
@@ -843,7 +843,7 @@ $lang = array_merge($lang, array(
 	'UPLOAD_IN_PROGRESS'	=> 'Đang tải lên.',
 	'URL_REDIRECT'			=> 'Nếu trình duyệt của bạn không hỗ trợ chuyển trang tự động, %shãy bấm vào đây để tiếp tục%s.',
 	'USERGROUPS'			=> 'Nhóm',
-	'USERNAME'				=> 'Tên thành viên',
+	'USERNAME'				=> 'Username',
 	'USERNAMES'				=> 'Tên thành viên',
 	'USER_AVATAR'			=> 'Hình đại diện của thành viên',
 	'USER_CANNOT_READ'		=> 'Bạn không thể xem những bài viết trong chuyên mục này.',
