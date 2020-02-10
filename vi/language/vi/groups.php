@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ALREADY_DEFAULT_GROUP'		=> 'Nhóm bạn vừa chọn đã được thiết lập là nhóm mặc định.',
+	'ALREADY_DEFAULT_GROUP'		=> 'Nhóm bạn chọn hiện tại là nhóm mặc định của bạn.',
 	'ALREADY_IN_GROUP'			=> 'Bạn đã là thành viên trong nhóm vừa chọn.',
 	'ALREADY_IN_GROUP_PENDING'	=> 'Bạn đã gửi yêu cầu tham gia vào nhóm này rồi.',
 
