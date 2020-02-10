@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'   => 'Vietnamese language pack for phpBB 3.2.x <a href="http://www.phpbb.com/customise/db/translation/vietnamese/">download and support</a>.',
+	'TRANSLATION_INFO'   => 'Vietnamese language pack for phpBB 3.3.x <a href="http://www.phpbb.com/customise/db/translation/vietnamese/">download and support</a>.',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|', // 01 Jan 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'	=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)
@@ -51,6 +51,7 @@ $lang = array_merge($lang, array(
 	// See https://area51.phpbb.com/docs/dev/32x/language/plurals.html for more information
 	// or ask the translation manager for help.
 	'PLURAL_RULE'		=> 1,
+	
 	'1_DAY'			=> '1 ngày',
 	'1_MONTH'		=> '1 tháng',
 	'1_YEAR'		=> '1 năm',
@@ -184,7 +185,7 @@ $lang = array_merge($lang, array(
 	'CONTACT_US'			=> 'Liên hệ chúng tôi',
 	'COOKIE_CONSENT_INFO'	=> 'Tìm hiểu thêm',
 	'COOKIE_CONSENT_MSG'	=> 'Trang web này sử dụng cookie để đảm bảo bạn có được trải nghiệm tốt nhất trên trang web của chúng tôi.',
-	'COOKIE_CONSENT_OK'		=> 'được!',
+	'COOKIE_CONSENT_OK'		=> 'Đã hiểu!',
 	'COOKIE_CONSENT_HREF'	=> 'http://cookiesandyou.com',
 	'COOKIES_DELETED'		=> 'Tất cả cookie đã được xoá thành công.',
 	'CURRENT_TIME'			=> 'Hôm nay, %s',
@@ -207,7 +208,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOADED'			=> 'Số lượt tải về',
 	'DOWNLOADING_FILE'		=> 'Đang tải về tập tin',
 	'DOWNLOAD_COUNTS'		=> array(
-		0	=> 'Chưa tải về lần nào',
+		0	=> 'Chưa được tải về',
 		1	=> 'Đã tải về <strong>%d</strong> lần',
 		2	=> 'Đã tải về <strong>%d</strong> lần',
 	),
@@ -231,7 +232,7 @@ $lang = array_merge($lang, array(
 	'ERR_UNWATCHING'					=> 'Có lỗi xảy ra khi hủy đăng ký.',
 	'ERR_WATCHING'						=> 'Có lỗi xảy ra khi đăng ký.',
 	'ERR_WRONG_PATH_TO_PHPBB'			=> 'Đường dẫn đến hệ thống phpBB vừa nhập dường như không hợp lệ.',
-	'ERROR'									=> 'Error',
+	'ERROR'									=> 'Lỗi',
 	'EXPAND_VIEW'						=> 'Xem toàn bộ',
 	'EXTENSION'							=> 'Đuôi tập tin đính kèm',
 	'EXTENSION_DISABLED'				=> 'The extension <strong>%s</strong> is not enabled.',
@@ -334,6 +335,7 @@ $lang = array_merge($lang, array(
 	'G_REGISTERED_COPPA'		=> 'Thành viên trong điều khoản COPPA',
 	'G_GLOBAL_MODERATORS'		=> 'Điều hành viên chính',
 	'G_NEWLY_REGISTERED'		=> 'Thành viên mới đăng ký',
+	
 	'HIDDEN_USERS_ONLINE'		=> array(
 		1	=> '%d người dùng ẩn',
 		2	=> '%d người dùng ẩn',
@@ -435,10 +437,10 @@ $lang = array_merge($lang, array(
 	'MODERATE'				=> 'Quản lý',
 	'MODERATOR'				=> 'Điều hành viên',
 	'MODERATORS'			=> 'Các điều hành viên',
-	'MODULE_NOT_ACCESS'		=> 'Module not accessible',
-	'MODULE_NOT_FIND'		=> 'Cannot find module %s',
-	'MODULE_FILE_INCORRECT_CLASS'	=> 'Module file %s does not contain correct class [%s]',
-	'MONTH'					=> 'Month',
+	'MODULE_NOT_ACCESS'		=> 'Module không thể truy cập',
+	'MODULE_NOT_FIND'		=> 'Không thể tìm thấy module %s',
+	'MODULE_FILE_INCORRECT_CLASS'	=> 'File module %s không chứa đúng lớp [%s]',
+	'MONTH'					=> 'Tháng',
 	'MOVE'					=> 'Di chuyển',
 
 	'NA'						=> 'N/A',
@@ -530,8 +532,9 @@ $lang = array_merge($lang, array(
 	'NO_POSTS_TIME_FRAME'		=> 'Chủ đề này không có bài viết nào trong khoảng thời gian bạn vừa chọn.',
 	'NO_FEED_ENABLED'			=> 'Feeds không tồn tại trên diễn đàn này.',
 	'NO_FEED'					=> 'Feed yêu cầu không tồn tại.',
-	'NO_STYLE_DATA'				=> 'Could not get style data',
-	'NO_SUBJECT'				=> 'Không có chủ đề nào được chỉ định',								// Used for posts having no subject defined but displayed within management pages.
+	'NO_STYLE_DATA'				=> 'Không tìm thấy dữ liệu giao diện',
+	'NO_STYLE_CFG'				=> 'Không tìm thấy file tùy chỉnh giao diện cho: %s',
+	'NO_SUBJECT'				=> 'Không có chủ đề nào được chỉ định',		// Used for posts having no subject defined but displayed within management pages.							// Used for posts having no subject defined but displayed within management pages.
 	'NO_SUCH_SEARCH_MODULE'		=> 'Lựa chọn tìm kiếm bạn vừa thực hiện không tồn tại.',
 	'NO_SUPPORTED_AUTH_METHODS'	=> 'Không có phương thức xác thực nào được hỗ trợ trên máy chủ.',
 	'NO_TOPIC'					=> 'Chủ đề bạn vừa yêu cầu không tồn tại.',
@@ -615,7 +618,7 @@ $lang = array_merge($lang, array(
 	'POST_UNAPPROVED_ACTION'	=> 'Bài đăng đang chờ phê duyệt:',
 	'POST_UNAPPROVED'			=> 'Bài viết này đang chờ được chấp nhận',
 	'POST_UNAPPROVED_EXPLAIN'	=> 'Bài viết này không được hiển thị tới các thành viên khác cho đến khi được duyệt bởi quản trị viên.',
-	'POWERED_BY'				=> 'Đã tích hợp %s',
+	'POWERED_BY'				=> 'Powered by %s',
 	'PREVIEW'					=> 'Xem trước',
 	'PREVIOUS'					=> 'Trang trước', // Used in pagination
 	'PREVIOUS_STEP'				=> 'Bước trước đó',
