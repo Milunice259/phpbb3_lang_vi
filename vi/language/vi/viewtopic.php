@@ -100,7 +100,7 @@ $lang = array_merge($lang, array(
 	'QUICKREPLY'			=> 'Trả lời nhanh',
 	'QUOTE'					=> 'Trích dẫn',
 
-	'REPLY_TO_TOPIC'		=> 'Gửi bài trả lời',
+	'REPLY_TO_TOPIC'		=> 'Trả lời chủ đề',
 	'RESTORE'				=> 'Khôi phục',
 	'RESTORE_TOPIC'			=> 'Khôi phục chủ đề',
 	'RETURN_POST'			=> '%sQuay lại bài đăng%s',
