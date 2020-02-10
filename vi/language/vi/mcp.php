@@ -122,7 +122,7 @@ $lang = array_merge($lang, array(
 	'LATEST_WARNINGS'			=> '5 cảnh cáo mới nhất',
 	'LEAVE_SHADOW'				=> 'Để lại liên kết đến chủ đề trong chuyên mục cũ',
 	'LIST_REPORTS'				=> array(
-		1	=> '%d bài báo cáo',
+		1	=> '%d báo cáo',
 		2	=> '%d báo cáo',
 	),
 	'LOCK'						=> 'Khoá',
@@ -268,8 +268,8 @@ $lang = array_merge($lang, array(
 	'PM_REPORTS_DELETED_SUCCESS'=> 'Các báo cáo tin nhắn riêng vừa được xóa thành công.',
 	'PM_REPORTS_TOTAL'			=> array(
 		0 => 'Không có báo cáo PM để xem xét.',
-		1 => 'Tổng số có <strong> 1 </strong> báo cáo PM để xem xét.',
-		2 => 'Tổng số có <strong>%d </strong> báo cáo PM để xem xét.',
+		1 => 'Tổng số có <strong>1</strong> báo cáo PM để xem xét.',
+		2 => 'Tổng số có <strong>%d</strong> báo cáo PM để xem xét.',
 	),
 	'PM_REPORT_DETAILS'			=> 'Chi tiết báo cáo tin nhắn riêng',
 	'POSTER'					=> 'Người gửi',
@@ -301,7 +301,7 @@ $lang = array_merge($lang, array(
 	'REPORTS_DELETED_SUCCESS'	=> 'Những báo cáo bạn vừa chọn đã được xoá thành công.',
 	'REPORTS_TOTAL'				=> array(
 		0	=> 'Không có báo cáo nào để xem xét.',
-		1	=> 'Tổng số có <strong> 1 </strong> báo cáo để xem xét.',
+		1	=> 'Tổng số có <strong>1</strong> báo cáo để xem xét.',
 		2	=> 'Tổng số có <strong>%d</strong> báo cáo để xem xét.',
 	),
 	'REPORT_CLOSED'				=> 'Báo cáo này đã được kết thúc.',
@@ -385,8 +385,8 @@ $lang = array_merge($lang, array(
 
 	'UNAPPROVED_POSTS_TOTAL'		=> array(
 		0	=> 'Không có bài đăng nào đang chờ phê duyệt.',
-		1	=> 'Tổng cộng có <strong> 1 </strong> bài đăng đang chờ phê duyệt.',
-		2	=> 'Tổng cộng có <strong> %d </strong> bài đăng đang chờ phê duyệt.',
+		1	=> 'Tổng cộng có <strong>1</strong> bài đăng đang chờ phê duyệt.',
+		2	=> 'Tổng cộng có <strong>%d</strong> bài đăng đang chờ phê duyệt.',
 	),
 	'UNLOCK'						=> 'Mở khoá',
 	'UNLOCK_POST'					=> 'Mở khoá bài viết',
@@ -419,16 +419,16 @@ $lang = array_merge($lang, array(
 
 	'report_reasons'		=> array(
 		'TITLE'	=> array(
-			'WAREZ'		=> 'Vi phạm bản quyền',
+			'WAREZ'		=> 'Phần mềm',
 			'SPAM'		=> 'Nhảm nhí',
-			'OFF_TOPIC'	=> 'Không phù hợp',
+			'OFF_TOPIC'	=> 'Không liên quan',
 			'OTHER'		=> 'Nguyên nhân khác',
 		),
 		'DESCRIPTION' => array(
-			'WAREZ'		=> 'Bài viết có chứa các liên kết liên quan đến những phần mềm sao chép trái pháp luật.',
-			'SPAM'		=> 'Bài viết chỉ nhằm mục đích quảng cáo cho một website hay các sản phẩm khác.',
-			'OFF_TOPIC'	=> 'Bài viết có nội dung không phù hợp.',
-			'OTHER'		=> 'Bài viết đã báo cáo không phải vì các nguyên nhân đã liệt kê ở trên, bạn hãy tự nhập vào thông tin giới thiệu chi tiết.',
+			'WAREZ'		=> 'Bài viết bị báo cáo có chứa các liên kết đến những phần mềm sao chép trái pháp luật.',
+			'SPAM'		=> 'Bài viết bị báo cáo chỉ nhằm mục đích quảng cáo cho một website hay các sản phẩm khác.',
+			'OFF_TOPIC'	=> 'Bài viết bị báo cáo có nội dung không liên quan.',
+			'OTHER'		=> 'Bài viết bị báo cáo không vì các nguyên nhân đã liệt kê ở trên, bạn hãy tự nhập vào thông tin chi tiết.',
 		)
 	),
 ));
