@@ -625,7 +625,7 @@ $lang = array_merge($lang, array(
 		'PLACE_INTO_FOLDER'	=> 'Đặt trong thư mục',
 		'MARK_AS_READ'		=> 'Đánh dấu đã xem',
 		'MARK_AS_IMPORTANT'	=> 'Đánh dấu tin nhắn',
-		'DELETE_MESSAGE'	=> 'Xoá tin nhắn'
+		'DELETE_MESSAGE'	=> 'Xoá tin nhắn',
 	),
 	'PM_CHECK' => array(
 		'SUBJECT'	=> 'Tiêu đề',
@@ -648,7 +648,7 @@ $lang = array_merge($lang, array(
 		'ANSWERED'		=> 'đã trả lời',
 		'FORWARDED'		=> 'đã chuyển tới',
 		'TO_GROUP'		=> 'đến nhóm thành viên mặc định của tôi',
-		'TO_ME'			=> 'đến tôi'
+		'TO_ME'			=> 'đến tôi',
 	),
 
 	'GROUPS_EXPLAIN'	=> 'Những nhóm làm nhiệm vụ của quản trị viên sẽ làm việc tốt hơn các thành viên quản trị riêng lẻ rất nhiều. Mặc định, bạn sẽ được đặt tham gia vào một nhóm xác định, đây là nhóm mặc định của bạn. Nhóm này sẽ phân biệt bạn là thành viên của nhóm với các thành viên của những nhóm khác thông qua màu sắc trên tên thành viên, hình đại diện, xếp hạng… Tuỳ thuộc vào quyết định của người quản trị có cho phép hay không mà bạn có thể thay đổi nhóm mặc định của mình. Bạn cũng có thể được tự thêm vào hoặc tự mình tham gia vào các nhóm thành viên khác. Một vài nhóm có thể đòi hỏi bạn thiết lập cấp phép bổ sung để xem một vài thông tin của nhóm hay năng lực để tham gia vào trong một số lĩnh vực riêng của họ.',
